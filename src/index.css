@@ -1,0 +1,37 @@
+/* index.css or custom global CSS */
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  height: 100%;
+  margin: 0;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.navbar,
+.footer {
+  background-color: #1a1a1a;
+}
+
+a,
+.btn-link,
+.nav-link {
+  color: #61dafb;
+}
+
+a:hover {
+  color: #82e0ff;
+}
